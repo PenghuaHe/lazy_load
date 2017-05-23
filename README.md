@@ -40,9 +40,7 @@ $("img.lazy").lazyload({
 
 5.针对不启用JavaScript的情况
 几乎所有浏览器的 JavaScript 都是激活的. 然而可能你仍希望能在不支持 JavaScript 的客户端展示真实图片. 当浏览器不支持 JavaScript 时优雅降级, 
-你可以将真实的图片片段在写 <noscript> 标签内.
-<img class="lazy" data-original="img/example.jpg"  width="640" heigh="480">
-<noscript><img src="img/example.jpg" width="640" heigh="480"></noscript>
+你可以将真实的图片片段在写 <noscript> 标签内.<img class="lazy" data-original="img/example.jpg"  width="640" heigh="480"><noscript><img src="img/example.jpg" width="640" heigh="480"></noscript>
 
 6.可以通过 CSS 隐藏占位符.
 .lazy {
